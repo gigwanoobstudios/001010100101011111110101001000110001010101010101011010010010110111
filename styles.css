@@ -124,7 +124,6 @@ body, h1, h2, h3, p, div, li, ul, span{
   }
   .topnav {
     background-color: #1a1a1a;
-    overflow: hidden;
     display: inline;
     list-style-type: none;
     margin: 0;
