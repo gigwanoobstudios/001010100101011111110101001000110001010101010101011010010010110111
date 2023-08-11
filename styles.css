@@ -24,7 +24,8 @@ body, h1, h2, h3, p, div, li, ul, span{
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-      padding: 275px 260px;
+      width: 100%;
+  z-index: 0;
 }
 
 /* Place text in the middle of the image */
