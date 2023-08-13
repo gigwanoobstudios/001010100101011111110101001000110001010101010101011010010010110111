@@ -31,7 +31,7 @@ body, h1, h2, h3, p, div, li, ul, span{
   /* Ensure the element is positioned correctly */
   position: relative;
       z-index: 0;
-
+  }
 /* Place text in the middle of the image */
 .hero-text {
   text-align: center;
