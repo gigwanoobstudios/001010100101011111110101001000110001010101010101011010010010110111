@@ -1,20 +1,11 @@
-function sendEmail() {
-    var recipientEmail = 'recipient@example.com'; // Replace with the recipient's email address
-  
-    var name = document.querySelector('input[name="name"]').value;
-    var email = document.querySelector('input[name="email"]').value;
-    var message = document.querySelector('textarea[name="message"]').value;
-  
-    var subject = 'Contact Form Submission';
-    var body = 'Name: ' + encodeURIComponent(name) +
-      '%0AEmail: ' + encodeURIComponent(email) +
-      '%0AMessage: ' + encodeURIComponent(message);
-  
-    var mailtoUrl = 'mailto:' + encodeURIComponent(recipientEmail) +
-      '?subject=' + encodeURIComponent(subject) +
-      '&body=' + encodeURIComponent(body);
-  
-    var newWindow = window.open(mailtoUrl, '_blank');
-    newWindow.close();
-  }
-  
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+  document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+  document.body.style.backgroundColor = "white";
+}
